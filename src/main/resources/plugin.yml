@@ -1,0 +1,28 @@
+name: Athamus-Survival-Core
+version: '${project.version}'
+main: net.athamusmc.survivalcore.Core
+api-version: 1.19
+commands:
+  speed:
+    description: Changes movement speed
+    usage: /speed <float>
+    permission: athamus.speed
+  nickname:
+    aliases: [nick,name]
+    description: Changes a players name
+    usage: /nickname <player> <name>
+    permission: athamus.nick
+  fly:
+    description: Toggles flight
+    usage: /fly
+    permission: athamus.fly
+  godmode:
+    aliases: [god,g]
+    description: Toggles god mode
+    usage: /godmode
+    permission: athamus.godmode
+  gamemode:
+    aliases: [gm]
+    description: Changes a player's Gamemode
+    usage: /gamemode [player]
+    permission: athamus.gamemode

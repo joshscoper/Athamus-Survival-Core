@@ -1,0 +1,35 @@
+en:
+  prefix: "&2&lSurvival &7>> &r"
+  join-message: "&7<&a%player%&7>"
+  quit-message: "&7<&c%player%&7>"
+  general:
+    no-permission: "%prefix% &cYou don't have permission to do that!"
+    invalid-input: "%prefix% &cYou've entered an invalid argument."
+  command:
+    player-not-found: "%prefix% &cThe player specified could not be found!"
+    gamemode-not-found: "%prefix% &cThe gamemode specified could not be found!"
+    change-nickname: "%prefix% &eYour name has been changed to %player%&e."
+    change-nickname-other: "%prefix% &eYou have changed %player%&e's name."
+    nickname-invalid: "%prefix% &cThat name is invalid."
+    nickname-too-long: "%prefix% &cThat name exceeds 16 characters."
+    nickname-reset: "%prefix% &eYour nickname has been reset."
+    time-changed: "%prefix% &etime has been set to &6%time%&e."
+  player:
+    on-cooldown: "%prefix% &cThat ability is on cooldown!"
+    death-message: "%prefix% &6&l%player% &ehas died!"
+    new-player: "%prefix% &aWelcome %player% &ato &6&lAthamus &2&lSurvival&a!"
+    gamemode-change: "%prefix% &eYour gamemode has been changed to &6&l%gamemode%&e."
+    gamemode-change-other: "%prefix%, &eYou changed &6&l%player%&e's gamemode to &6%gamemode%&e."
+    god-mode-enabled: "%prefix% &eGodmode &aenabled&e."
+    god-mode-disabled: "%prefix% &eGodmode &cdisabled&e."
+    fly-mode-enabled: "%prefix% &eFlight &aenabled&e."
+    fly-mode-disabled: "%prefix% &eFlight &cdisabled&e."
+    fly-speed: "%prefix% &eFly speed set to &6%fly-speed%&e."
+    walk-speed: "%prefix% &eWalk speed set to &6%walk-speed%&e."
+  economy:
+    insufficient-funds: "%prefix% &cInsufficient funds."
+    payment-received: "%prefix% &aYou received &e%payment-amount% &afrom &6&l%player%&a!"
+    payment-sent: "%prefix% &aYou sent a &e%payment-amount% &ato &6&l%player%&e!"
+    balance-change: "%prefix% &eYour balance is now &f%balance%&e."
+
+

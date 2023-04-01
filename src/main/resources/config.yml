@@ -1,0 +1,5 @@
+settings:
+  display-nickname-on-tablist: true
+economy:
+  starting-balance: 100
+  currency-symbol: ' '
